@@ -71,6 +71,10 @@ for (var round = 1; round < 11; round++) {
 if (user_score > computer_score) {
   console.log("User won by " + user_score + " Points")
 }
-else {
+else  if(user_score < computer_score){
   console.log("Computer won by " + computer_score + " Points")
 }
+else
+  (
+    console.log("Its a Draw !!")
+  )
